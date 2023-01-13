@@ -1,3 +1,3 @@
-document.getElementById("placeholder").innerHTML = new Date(document.lastModified);
+document.getElementById("placeholder").innerHTML = `Last Updated: ${new Date(document.lastModified)} `;
 
-document.querySelector("#date2").textContent = `@${new Date().getFullYear()} .:|:. Brenda T. Bento .:|:. RJ`;
+document.querySelector("#date2").textContent = `@${new Date().getFullYear()} .:|:. Brenda T. Bento .:|:. BYU-I`;
