@@ -23,6 +23,10 @@ h2 {
     font-family: 'Roboto', sans-serif;
 }
 
+h3{
+    margin-top: -12px;
+}
+
 main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -50,7 +54,7 @@ main {
 }
 
 a {
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #fffffe;
 
@@ -75,5 +79,6 @@ footer {
     padding: 1em;
     margin: 20px 0 auto;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
