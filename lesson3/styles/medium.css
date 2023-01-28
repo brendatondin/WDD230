@@ -1,0 +1,35 @@
+@media only screen and (max-width: 710px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        color: black;
+    }
+
+    nav ul {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        text-decoration: underline;
+    }
+
+    nav a {
+        color: black;
+    }
+
+    nav {
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    footer {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+    }
+
+    li {
+        padding: 5px;
+    }
+}
