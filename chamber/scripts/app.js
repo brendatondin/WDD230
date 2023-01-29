@@ -4,21 +4,6 @@ let time = lastModified.toLocaleString('en-GB', {hour: "2-digit", minute: "2-dig
 let dateTime = `Last Modification: ${fullDate} ${time}`;
 document.getElementById("lastModified").innerHTML = dateTime;
 
-
-const date1 = document.querySelector("#date1");
-const message = document.querySelector("#emessage");
-
-try {
-	const options = {
-		weekday: "long",
-		day: "numeric",
-		month: "long",
-		year: "numeric"
-	};
-	date1.innerHTML = `Today is <span class="highlight">${new Date().toLocaleDateString("en-UK", options)}</span>!`;
-} catch (e) {
-	console.log("Error with code or your browser does not support Locale");
-}
 const daynames = [
 	"Sunday",
 	"Monday",
@@ -48,4 +33,5 @@ const monthName = months[d.getMonth()];
 const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.querySelector("#date2").textContent = fulldate;
+
 

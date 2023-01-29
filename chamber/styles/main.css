@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    width: 100%;
+    background-color: grey;
+}
+
+nav {
+    padding: 10px 10% 10px 10%;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: .5rem;
+}
+
+.headings h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.m {
+    letter-spacing: 1pt;
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+.social img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.date {
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+footer {
+    background-color: grey;
+    padding: 10px 10% 10px 10%;
+}
+
+.footerInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.student {
+    padding: 10px 10% 10px 10%;
+    text-align: center;
+}
+
+.contact p {
+    text-align: center;
+}
+
+
