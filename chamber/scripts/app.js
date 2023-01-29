@@ -34,4 +34,9 @@ const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.querySelector("#date2").textContent = fulldate;
 
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("open");
+}
 
+const x = document.getElementById('hamburger-button')
+x.onclick = toggleMenu;

@@ -1,0 +1,44 @@
+@media only screen and (max-width: 710px){
+    .link {
+        display: flex;
+        margin: 0;
+    }
+    
+    p{
+        font-family: 'Roboto', sans-serif;
+    }
+    .logo{
+        /* display: flex; */
+        margin: 0;
+    }
+    .logo img {
+        width: 50px;
+        height: auto;
+        border-radius: 50%;
+    }
+
+    .headings {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .headings h1 {
+        font-size: 20px;
+    }
+
+    footer .logo{
+        display: block;
+    }
+    
+    .footerInfo {
+        display: block;
+        align-items: center;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .student{
+        display: block;
+        margin: 0 20% 0 20%;
+    }
+}

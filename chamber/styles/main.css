@@ -4,19 +4,25 @@
     padding: 0;
 }
 
-header nav {
+header {
     width: 100%;
     background-color: grey;
-}
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding: 10px 0.5% 10px 0.5%;
 
-nav {
-    padding: 10px 10% 10px 10%;
 }
 
 .link {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
 }
 
 .headings {
@@ -32,7 +38,6 @@ nav {
 
 .m {
     letter-spacing: 1pt;
-    font-weight: 700;
     font-size: 0.8rem;
 }
 
@@ -54,6 +59,10 @@ nav ul li {
     padding: 10px 20px;
 }
 
+#hamburger-button{
+    display: none;
+}
+
 a {
     text-decoration: none;
 }
@@ -63,9 +72,10 @@ nav ul li a:hover {
 }
 
 .social img {
-    width: 30px;
+    width: 35px;
     border-radius: 50%;
 }
+
 
 .date {
     background-color: grey;
@@ -77,13 +87,18 @@ nav ul li a:hover {
 
 footer {
     background-color: grey;
-    padding: 10px 10% 10px 10%;
+    padding: 10px 0.5% 10px 0.5%;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .footerInfo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 45px;
+    margin-left: 45px;
 }
 
 .student {
