@@ -36,8 +36,6 @@
     }
 
     nav ul.open {
-        /* display: block; */
-        /* background-color: red; */
         display: grid;
     }
 
@@ -59,4 +57,10 @@
         grid-row: 1/2;
     }
 
+}
+
+@media(min-width:950px){
+    .aparecendo{
+        display: none;
+    }
 }
