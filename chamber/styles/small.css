@@ -8,7 +8,6 @@
         font-family: 'Roboto', sans-serif;
     }
     .logo{
-        /* display: flex; */
         margin: 0;
     }
     .logo img {
@@ -40,5 +39,62 @@
     .student{
         display: block;
         margin: 0 20% 0 20%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .join {
+        display: none;
+    }
+
+    .event {
+        grid-column: 1/4;
+        grid-row: 2/2;
+    }
+
+    .weather {
+        grid-column: 1/4;
+        grid-row: 3/3;
+    }
+
+    .hero {
+        grid-column: 1/4;
+        grid-row: 1/1;
+    }
+
+    .new {
+        grid-row: 4/4;
+    }
+
+    .spotlight p {
+        border: solid 1px red;
+        height: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .spotlight {
+        grid-column: 1/4;
+        grid-row: 5/5;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .teste1 {
+        grid-column: 1/4;
+        grid-row: 1/1;
+        margin: 0%;
+    }
+
+    .teste2 {
+        grid-column: 1/4;
+        grid-row: 2/2;
+    }
+
+    .teste3 {
+        display: none;
     }
 }
