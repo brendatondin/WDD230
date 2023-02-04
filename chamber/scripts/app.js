@@ -49,7 +49,9 @@ document.querySelector("#date2").textContent = fulldate;
 // }
 
 if(dayName==='Monday' || dayName==='Tuesday') {
-	alert('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.')
+	setTimeout(function () {
+		alert('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.')
+	}, 1000)
 }
 
 function toggleMenu() {
