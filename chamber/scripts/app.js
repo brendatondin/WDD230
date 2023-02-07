@@ -42,16 +42,22 @@ const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.querySelector("#date2").textContent = fulldate;
 
-// const dayOfWeek = new Date().getDay();
 
-// if (dayOfWeek === 6 || dayOfWeek === 2){
-//     alert('hey')
+// if(dayName==='Monday' || dayName==='Tuesday') {
+// 	setTimeout(function () {
+// 		alert('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.')
+// 	}, 1000)
 // }
 
-if(dayName==='Monday' || dayName==='Tuesday') {
-	setTimeout(function () {
-		alert('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.')
-	}, 1000)
+const day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][new Date().getDay()];
+const monthNames = ["January", "February", "March", "April", "May", "June",
+	"July", "August", "September", "October", "November", "December"
+][new Date().getMonth()];
+
+let notification = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+
+if (day == "Monday" || day == "Tuesday") {
+	document.getElementById("banner_msg").textContent = notification;
 }
 
 function toggleMenu() {

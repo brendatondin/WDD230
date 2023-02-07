@@ -12,12 +12,24 @@ header {
     padding: 10px 0.5% 10px 0.5%;
 }
 
+#banner_msg {
+    text-align: center;
+    background-color: #2D334A;
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
 .link {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-right: 45px;
     margin-left: 45px;
+}
+
+ul {
+    margin-right: 170px;
 }
 
 p {
@@ -44,6 +56,7 @@ p {
     display: flex;
     align-items: center;
     margin-left: 1rem;
+    margin-top: 5px;
 }
 
 .logo img {
@@ -120,7 +133,7 @@ main section p {
     text-align: center;
 }
 
-main h2{
+main h2 {
     padding: 5%;
     color: #ffff;
     font-size: 1.5rem;
