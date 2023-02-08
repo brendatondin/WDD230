@@ -58,6 +58,8 @@ let notification = "🤝🏼 Come join us for the chamber meet and greet Wednesd
 
 if (day == "Monday" || day == "Tuesday") {
 	document.getElementById("banner_msg").textContent = notification;
+} else{
+	document.getElementById("banner").style.display = "none"
 }
 
 function toggleMenu() {
