@@ -42,21 +42,9 @@ const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 document.querySelector("#date2").textContent = fulldate;
 
-
-// if(dayName==='Monday' || dayName==='Tuesday') {
-// 	setTimeout(function () {
-// 		alert('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.')
-// 	}, 1000)
-// }
-
-const day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][new Date().getDay()];
-const monthNames = ["January", "February", "March", "April", "May", "June",
-	"July", "August", "September", "October", "November", "December"
-][new Date().getMonth()];
-
 let notification = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
 
-if (day == "Monday" || day == "Tuesday") {
+if (dayName == "Monday" || dayName == "Tuesday") {
 	document.getElementById("banner_msg").textContent = notification;
 } else{
 	document.getElementById("banner").style.display = "none"
@@ -68,3 +56,9 @@ function toggleMenu() {
 
 const x = document.getElementById('hamburger-button')
 x.onclick = toggleMenu;
+
+// if(dayName==='Monday' || dayName==='Tuesday') {
+// 	setTimeout(function () {
+// 		alert('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.')
+// 	}, 1000)
+// }
