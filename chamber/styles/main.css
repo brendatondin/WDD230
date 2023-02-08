@@ -23,7 +23,7 @@ header {
 .link {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-right: 45px;
     margin-left: 45px;
 }
@@ -47,16 +47,17 @@ p {
     margin: 0;
 }
 
-.m {
+/* .m {
     letter-spacing: 1pt;
     font-size: 0.8rem;
-}
+} */
 
 .logo {
     display: flex;
     align-items: center;
     margin-left: 1rem;
     margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .logo img {
@@ -84,7 +85,7 @@ nav ul li a:hover {
 }
 
 .social img {
-    width: 35px;
+    width: 40px;
     border-radius: 50%;
 }
 
@@ -105,10 +106,11 @@ footer {
 
 .footerInfo {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     margin-right: 45px;
     margin-left: 45px;
+    gap: 100px;
 }
 
 .student {
