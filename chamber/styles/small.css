@@ -25,6 +25,10 @@
         margin-left: 10px;
     }
 
+    .btnHero{
+        width: 55%;
+    }
+
     .social img {
         width: 30px;
     }

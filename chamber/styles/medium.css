@@ -8,6 +8,18 @@
         color: black;
     }
 
+    .headings p {
+        font-size: 8px;
+    }
+
+    #date2 {
+        font-size: 10px;
+    }
+
+    .headings h1 {
+        font-size: 17px;
+    }
+
     .link {
         margin: 0;
     }
@@ -64,6 +76,7 @@
 
     footer p {
         text-align: center;
+        font-size: 10px;
     }
 
     footer h1 {
@@ -124,6 +137,10 @@
         grid-row: 1/2;
     }
 
+    .btnHero {
+        width: 30%;
+    }
+
     .new {
         grid-column: 1/4;
         grid-row: 2/3;
@@ -162,6 +179,22 @@
 
     .teste3 {
         display: none;
+    }
+
+    .btn {
+        border: 0;
+        padding: 10px;
+        width: 95%;
+        /* height: 50px; */
+        display: inline-block;
+        /* margin: 10px; */
+        margin-top: 10%;
+        margin-bottom: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        /* box-shadow: 5px 10px #FFD803; */
     }
 
 }
