@@ -197,6 +197,12 @@
         /* box-shadow: 5px 10px #FFD803; */
     }
 
+    .hero img {
+        width: 100%;
+        height: 300px;
+    }
+    
+
 }
 
 @media(min-width:950px) {

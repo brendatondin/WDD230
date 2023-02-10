@@ -106,7 +106,7 @@ footer {
 
 .footerInfo {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     margin-right: 45px;
     margin-left: 45px;
@@ -157,7 +157,7 @@ main {
     text-align: center;
 }
 
-.join p{
+.join p {
     font-size: 15px;
 }
 
@@ -165,7 +165,7 @@ main {
     grid-column: 2/4;
 }
 
-.event p{
+.event p {
     font-size: 15px;
 }
 
@@ -179,11 +179,11 @@ main {
     position: relative;
 }
 
-.hero h2{
+.hero h2 {
     position: absolute;
 }
 
-.btnHero{
+.btnHero {
     position: absolute;
     right: 15px;
     bottom: 25px;
@@ -191,29 +191,29 @@ main {
     min-width: 100px;
     width: 35%;
     /* background-color:  #FFD803; */
-    /* border: 1px solid; */
+    border: none;
     cursor: pointer;
     border-radius: 10px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-.btnHero:hover{
-    background-color:  #FFD803;
+.btnHero:hover {
+    background-color: #FFD803;
 }
 
-.hero img{
+.hero img {
     width: 100%;
-    height: 100%;
 }
+
 
 .new {
     grid-column: 4/8;
 }
 
-.new p{
+.new p {
     font-size: 15px;
-    padding:15px;
+    padding: 15px;
 }
 
 .spotlight p {
@@ -239,12 +239,12 @@ main {
     border: 1px solid #FFD803;
 }
 
-.teste1 img{
+.teste1 img {
     width: 100px;
 }
 
 
-.truck{
+.truck {
     display: flex;
     justify-content: center;
 }
@@ -256,11 +256,11 @@ main {
     border: 1px solid #FFD803;
 }
 
-.teste2 img{
+.teste2 img {
     width: 100px;
 }
 
-.pen{
+.pen {
     display: flex;
     justify-content: center;
 }
@@ -276,7 +276,7 @@ main {
     width: 100px;
 }
 
-.tree{
+.tree {
     display: flex;
     justify-content: center;
 }
@@ -297,7 +297,6 @@ main {
     /* box-shadow: 5px 10px #FFD803; */
 }
 
-.btn:hover{
-background-color: #FFD803;
+.btn:hover {
+    background-color: #FFD803;
 }
-
