@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Chamber of Commerce website" />
+    <meta name="description" content="Chamber Of Commerce Website">
     <title>Chamber of Commerce</title>
     <link rel="icon" href="favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap"
@@ -82,15 +82,26 @@
             <p>Join us for the grand opening of The Diamond Shack, Thrusday at 1:00 p.m.</p>
         </section>
         <section class="weather">
+            <!-- <h2>Weather</h2> -->
             <h2>Weather</h2>
+            <p>Partly Cloudy</p>
+            <div id='weatherGrid'>
+                <img src='images/weather.png' alt='partly cloudy weather icon' id='weatherIcon'>
+                <h2><span id='temp'>30</span>°</h2>
+                <hr class='fullWidthGrid'>
+                <p>Wind Speed:</p>
+                <p><span id='windSpeed'>2.5</span>km/h</p>
+                <p>Wind Chill:</p>
+                <p id='windChill'></p>
+            </div>
         </section>
-        <section class="join">
+        <div class="join">
             <button class="btn">Join Us</button>
             <!-- <h2>Join</h2> -->
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nam nisi laborum optio enim, ut minus quam,
                 deserunt dignissimos asperiores est perferendis vitae exercitationem perspiciatis atque, distinctio
                 tempore. Nostrum, beatae.</p>
-        </section>
+        </div>
         <section class="new">
             <h2>News Release</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et tempora voluptatem harum exercitationem
@@ -145,7 +156,7 @@
             </div>
             <div class="contact">
                 <p>infor@timbuktucc.org <br> +(223) 2070-2300 <br>
-                    <img src="https://img.icons8.com/color/15/null/marker--v1.png" alt="map icon" /> Location Map</p>
+                    <p>📍Location Map</p>
             </div>
         </div>
 
@@ -160,6 +171,7 @@
     </footer>
 
     <script src="scripts/app.js"></script>
+    <script src='scripts/windchill.js'></script>
 
 </body>
 

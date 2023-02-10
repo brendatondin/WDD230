@@ -53,6 +53,11 @@
         margin: 0px;
     }
 
+    footer hr {
+        max-width: 60%;
+        margin: 3% 20% 3% 20%;
+    }
+
     .student {
         display: block;
         margin: 0 20% 0 20%;
@@ -61,6 +66,10 @@
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main section p{
+        padding: 0;
     }
 
     .join {

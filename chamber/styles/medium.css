@@ -117,6 +117,10 @@
         margin: 15px;
     }
 
+    main section p{
+        padding: 5% 0 5% 10%;
+    }
+
     .join {
         grid-column: 1/4;
         grid-row: 4/5;
