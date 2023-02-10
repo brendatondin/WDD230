@@ -210,7 +210,7 @@ footer hr {
     margin: 0 20% 0 20%;
 }
 
-.fullWidthGrid {
+.hrGrid {
     grid-column: 1/-1;
     width: 100%;
 }
