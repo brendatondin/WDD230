@@ -132,15 +132,15 @@ main div {
     border: solid 1px #2D334A;
 }
 
-main section p {
+/* main section p {
     padding: 5%;
     color: #ffff;
     font-size: 1.5rem;
     text-align: center;
-}
+} */
 
 main div p {
-    padding: 5%;
+    /* padding: 5%; */
     color: #ffff;
     font-size: 1.5rem;
     text-align: center;
@@ -270,7 +270,7 @@ footer hr {
 .spotlight {
     grid-column: 8/10;
     grid-row: 1/4;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr 1fr;
 }
 

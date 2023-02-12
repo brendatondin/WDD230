@@ -172,6 +172,7 @@
         grid-row: 1/1;
         border: none;
         background-color: none;
+        margin: auto;
     }
 
     .teste2 {
@@ -179,6 +180,8 @@
         grid-row: 1/1;
         border: none;
         background-color: none;
+        margin: auto;
+
     }
 
     .teste3 {
