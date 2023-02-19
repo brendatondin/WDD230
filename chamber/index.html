@@ -34,7 +34,8 @@
             </div>
             <nav class="nav-bar sumindo">
                 <ul>
-                    <li><a class="active" href="#">Discover</a></li>
+                    <li><a class="active" href="#">Home</a></li>
+                    <li><a lhref="#">Discover</a></li>
                     <li><a href="#">Directory</a></li>
                     <li><a href="#">Join</a></li>
                     <li><a href="#">Contact</a></li>
@@ -51,7 +52,8 @@
         </div>
         <nav class="nav-bar aparecendo">
             <ul id="primaryNav">
-                <li><a class="active" href="#">Discover</a></li>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a lhref="#">Discover</a></li>
                 <li><a href="#">Directory</a></li>
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>
@@ -69,6 +71,13 @@
                 <img src="images/wdd230-org.jpg" alt="meeting"
                     srcset="images/large.png 602w, images/small.png 370w,">
             </picture> -->
+            <picture>
+                <source srcset="images/400px.png" media="(min-width: 400px) and (max-width: 599px)">
+                <source srcset="images/600px.png" media="(min-width: 600px) and (max-width: 799px)">
+                <source srcset="images/800px.png" media="(min-width: 800px) and (max-width: S1099px)">
+                <source srcset="images/1920px.png" media="(min-width: 1100px)">
+                <img class="heroImg" src="images/wdd-230-org.png" alt="Banner Hero Image">
+            </picture>
 
             <button class="btnHero">Join the Chamber</button>
         </div>
