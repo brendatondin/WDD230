@@ -245,7 +245,7 @@ footer hr {
 
 .hero img {
     width: 100%;
-	height: auto;
+    height: 100%;
 }
 
 
@@ -341,4 +341,167 @@ footer hr {
 
 .btn:hover {
     background-color: #FFD803;
+}
+
+.card,
+.card2,
+.card3,
+.card4,
+.card5,
+.info1,
+.info2,
+.info3 {
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.card img {
+    display: block;
+    filter: blur(0em);
+    transition: filter 3s;
+    border-radius: 15px;
+}
+
+.card img:hover {
+    filter: blur(0.3em);
+}
+
+.card img[data-src] {
+    filter: blur(0.2em);
+}
+
+.card2 img {
+    display: block;
+    filter: blur(0em);
+    transition: filter 3s;
+    border-radius: 15px;
+}
+.card2 img:hover {
+    filter: blur(0.3em);
+}
+
+.card2 img[data-src] {
+    filter: blur(0.2em);
+}
+
+.card3 img {
+    display: block;
+    filter: blur(0em);
+    transition: filter 3s;
+    border-radius: 15px;
+}
+.card3 img:hover {
+    filter: blur(0.3em);
+}
+
+.card3 img[data-src] {
+    filter: blur(0.2em);
+}
+
+.card4 img {
+    display: block;
+    filter: blur(0em);
+    transition: filter 3s;
+    border-radius: 15px;
+}
+.card4 img:hover {
+    filter: blur(0.3em);
+}
+
+.card4 img[data-src] {
+    filter: blur(0.2em);
+}
+
+.card5 img {
+    display: block;
+    filter: blur(0em);
+    transition: filter 3s;
+    border-radius: 15px;
+}
+.card5 img:hover {
+    filter: blur(0.3em);
+}
+
+.card5 img[data-src] {
+    filter: blur(0.2em);
+}
+
+.card {
+    grid-column: 3/4;
+    margin-left: 20px;
+}
+
+.card p {
+    margin: 20%;
+    font-size: 16px;
+}
+
+.card2 p {
+    margin: 20%;
+    font-size: 16px;
+}
+
+.card3 p {
+    margin: 20%;
+    font-size: 16px;
+}
+
+.card4 p {
+    margin: 20%;
+    font-size: 16px;
+}
+
+.card5 p {
+    margin: 20%;
+    font-size: 16px;
+}
+
+.card2 {
+    grid-column: 4/5;
+}
+
+.card3 {
+    grid-column: 5/6;
+}
+
+.card4 {
+    grid-column: 6/7;
+}
+
+.card5 {
+    grid-column: 7/8;
+}
+
+.info1 {
+    grid-column: 4/5;
+    grid-row: 2/2;
+}
+
+.info1,
+.info2,
+.info3 {
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.info2 {
+    grid-column: 5/6;
+}
+
+.info3 {
+    grid-column: 6/7;
+    grid-row: 2/2;
+}
+
+.visit {
+    background-color: #2D334A;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    border-radius: 15px;
 }
