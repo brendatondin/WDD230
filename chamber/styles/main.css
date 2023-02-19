@@ -357,7 +357,6 @@ footer hr {
 }
 
 .card img {
-    display: block;
     filter: blur(0em);
     transition: filter 3s;
     border-radius: 15px;
@@ -372,7 +371,6 @@ footer hr {
 }
 
 .card2 img {
-    display: block;
     filter: blur(0em);
     transition: filter 3s;
     border-radius: 15px;
@@ -386,7 +384,6 @@ footer hr {
 }
 
 .card3 img {
-    display: block;
     filter: blur(0em);
     transition: filter 3s;
     border-radius: 15px;
@@ -400,7 +397,6 @@ footer hr {
 }
 
 .card4 img {
-    display: block;
     filter: blur(0em);
     transition: filter 3s;
     border-radius: 15px;
@@ -414,7 +410,6 @@ footer hr {
 }
 
 .card5 img {
-    display: block;
     filter: blur(0em);
     transition: filter 3s;
     border-radius: 15px;
