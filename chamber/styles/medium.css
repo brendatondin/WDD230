@@ -154,7 +154,6 @@
         grid-column: 1/2;
         grid-row: 1/1;
         border: none;
-        background-color: none;
         margin: auto;
     }
 
@@ -162,7 +161,7 @@
         grid-column: 2/3;
         grid-row: 1/1;
         border: none;
-        background-color: none;
+        /* background-color: none; */
         margin: auto;
 
     }
@@ -191,8 +190,8 @@
         width: 100%;
     }
 
-    .info{
-    padding: 2em 1em 2em 1em;
+    .info {
+        padding: 2em 1em 2em 1em;
 
     }
 
