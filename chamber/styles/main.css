@@ -361,7 +361,7 @@ footer hr {
 .card p {
     font-size: 20px;
     text-align: center;
-    padding: 1em;    
+    padding: 1em;
 }
 
 .card img {
@@ -379,13 +379,13 @@ footer hr {
     filter: blur(0.2em);
 }
 
-.information{
+.information {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.info{
+.info {
     color: white;
     padding: 2.5em;
     text-align: center;
@@ -394,14 +394,14 @@ footer hr {
 }
 
 .visit {
-    background-color:  #2D334A;
-    text-align: center;
-    color: white;
     padding: 1rem;
-    margin-top: 1em;
-    border-radius: 15px;
 }
 
 .vis p {
     font-size: 20px;
+}
+
+.vis {
+    margin-top: 1em;
+    border-radius: 15px;
 }
