@@ -1,19 +1,17 @@
-//Here  I store my variables for everything that I plan on using. 
-const visits = document.querySelector(".visitor");
-let today = Date.now();
-let numVisits = Number(localStorage.getItem("visits"));
-let lastVisited = localStorage.getItem('dateVisited');
-let difference; 
-let daysBetweenVisits;
+const now = new Date().getTime()
 
-//This checks if the site has been visited or ntot and then calculates the days between visits
-if (numVisits !== 0) {
-    localStorage.setItem("dateVisited", today);
-    difference = today - lastVisited
-    daysBetweenVisits = Math.round(difference / 86400000)
+const lastVisited = document.querySelector("#lastVisited")
+
+if (!localStorage.getItem('lastVisit')) {
+    localStorage.setItem('lastVisit', now)
+} else {
+    const lastVisit = localStorage.getItem('lastVisit')
+
+    const timeDiff = now - lastVisit
+
+    const daysDiff = Math.round(timeDiff / (1000 * 60 * 60 * 24))
+
+    lastVisited.textContent = `Days since last visit: ${daysDiff}`
+
+    localStorage.setItem('lastVisit', now)
 }
-
-numVisits++
-localStorage.setItem('visits', numVisits)
-
-visits.textContent = daysBetweenVisits;
