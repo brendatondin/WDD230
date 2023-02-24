@@ -405,3 +405,7 @@ footer hr {
     margin-top: 1em;
     border-radius: 15px;
 }
+
+.join{
+    display: flex;
+}
