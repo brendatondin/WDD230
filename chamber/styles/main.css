@@ -127,10 +127,10 @@ footer {
     border: solid 1px #2D334A;
 } */
 
-main div {
+/* main div {
     background-color: #2D334A;
     border: solid 1px #2D334A;
-}
+} */
 
 /* main section p {
     padding: 5%;
@@ -167,6 +167,8 @@ main {
 .join {
     grid-column: 2/4;
     text-align: center;
+    background-color: #2D334A;
+    border: solid 1px #2D334A;
 }
 
 .join p {
@@ -175,6 +177,8 @@ main {
 
 .event {
     grid-column: 2/4;
+    background-color: #2D334A;
+    border: solid 1px #2D334A;
 }
 
 .event p {
@@ -184,6 +188,8 @@ main {
 .weather {
     grid-column: 2/4;
     padding: 5%;
+    background-color: #2D334A;
+    border: solid 1px #2D334A;
 }
 
 .weather p {
@@ -193,6 +199,8 @@ main {
 #weatherGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #2D334A;
+    border: solid 1px #2D334A;
 }
 
 #weatherIcon {
@@ -218,6 +226,8 @@ footer hr {
     grid-column: 4/8;
     grid-row: 1/3;
     position: relative;
+    background-color: #2D334A;
+    border: solid 1px #2D334A;
 }
 
 .hero h2 {
@@ -251,6 +261,8 @@ footer hr {
 
 .new {
     grid-column: 4/8;
+    background-color: #2D334A;
+    border: solid 1px #2D334A;
 }
 
 .new p {
@@ -272,6 +284,8 @@ footer hr {
     grid-row: 1/4;
     /* display: grid; */
     grid-template-columns: 1fr 1fr;
+    background-color: #2D334A;
+    border: solid 1px #2D334A;
 }
 
 .teste1 {
@@ -356,6 +370,8 @@ footer hr {
     align-items: center;
     border-radius: 15px;
     padding: 1em;
+    background-color: #2D334A;
+    border: solid 1px #2D334A;
 }
 
 .card p {
@@ -391,10 +407,15 @@ footer hr {
     text-align: center;
     margin: 1em 1em 0 1em;
     border-radius: 15px;
+    background-color: #2D334A;
+    border: solid 1px #2D334A;
 }
 
 .visit {
     padding: 1rem;
+    background-color: #2D334A;
+    border: solid 1px #2D334A;
+    border-radius: 15px;
 }
 
 .vis p {
@@ -403,7 +424,7 @@ footer hr {
 
 .vis {
     margin-top: 1em;
-    border-radius: 15px;
+
 }
 
 .joinPage {
@@ -413,7 +434,8 @@ footer hr {
     align-items: center;
 }
 
-.one{
+.one,
+.two {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -422,31 +444,33 @@ footer hr {
     border-radius: 10px;
 }
 
-/* 
+
 .three {
     display: flex;
     flex-direction: column;
     margin: 1em;
-    border: solid 1px #2D334A;
-} */
-
-/* .three p {
-    margin: 1em 0 0 0;
-} */
-
-legend{
-    font-size: 18px;
-    margin: 1.5em;
-    font-weight: bold ;
+    border: solid 3px #2D334A;
+    border-radius: 10px;
 }
 
-.imp{
+.three p {
+    margin: 1em 0 0 0;
+}
+
+legend {
+    font-size: 18px;
+    margin: 1.5em;
+    font-weight: bold;
+}
+
+.imp {
     background-color: #FFD803;
     padding: 0.75rem 1.5rem;
     font-size: 18px;
     border-radius: 10px;
     text-align: center;
 }
+
 .joinbtn {
     background-color: #2D334A;
     color: white;
@@ -464,7 +488,9 @@ input {
     width: 100%;
 }
 
-input[type="text"], input[type="tel"], input[type="email"]{
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
     margin: 5px;
 }
 
@@ -488,7 +514,7 @@ table {
     width: 50%;
 }
 
-.tabela{
+.tabela {
     display: flex;
     justify-content: space-around;
 }
@@ -514,7 +540,7 @@ tr:nth-child(2) td:nth-child(1) {
 }
 
 tr:nth-child(2n) td {
-    background-color:  #bae8e868;
+    background-color: #bae8e868;
     color: black;
 }
 
@@ -523,17 +549,20 @@ tr:nth-child(4) {
     border: 1px solid #e2e2e2;
 }
 
-.areaTexto p{
+.areaTexto p {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+
+}
+
+.labelT {
     display: flex;
     justify-content: center;
 }
 
-.labelT{
-    display: flex;
-    justify-content: center;
-}
-
-.thanks{
+.thanks {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -541,17 +570,17 @@ tr:nth-child(4) {
     padding: 1em;
 }
 
-.thanks h1{
+.thanks h1 {
     font-size: 40px;
 }
 
-.thanksFooter{
+.thanksFooter {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-.thanksBtn{
+.thanksBtn {
     background-color: #2D334A;
     color: white;
     font-size: 18px;

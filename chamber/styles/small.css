@@ -147,7 +147,7 @@
         border-radius: 0;
     }
 
-    .one {
+    .one, .two, .three {
         border: solid 1px #2D334A;
         border-radius: 0;
     }
