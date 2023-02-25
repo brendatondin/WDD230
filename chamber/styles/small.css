@@ -150,6 +150,7 @@
     .one, .two, .three {
         border: solid 1px #2D334A;
         border-radius: 0;
+        padding: 0;
     }
 
     .imp {
@@ -199,7 +200,7 @@
 
     table {
         border-collapse: collapse;
-        size: 1px;
+        width: 100%;
     }
 
     .tabela {
