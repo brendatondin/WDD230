@@ -150,7 +150,6 @@
     .one, .two, .three {
         border: solid 1px #2D334A;
         border-radius: 0;
-        margin: 30px;
     }
 
     .imp {
@@ -166,7 +165,7 @@
         display: flex;
         justify-content: center;
     }
-    
+
     .joinbtn {
         border-radius: 0;
         width: 25%;
