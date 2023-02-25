@@ -36,8 +36,8 @@
                 <ul>
                     <li><a class="active" href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
-                    <li><a href="join.html">Directory</a></li>
-                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
@@ -65,13 +65,84 @@
         </div>
     </header>
     <main class="join">
-            <form method="get" action="thanks.html">
-                <fieldset>
-                    <legend>Applicant Information</legend>
-                    First Name* <input type="text" name="fname" required>
-                </fieldset>
-            </form>
-        </main>
+        <form method="get" action="thanks.html">
+            <fieldset class="one">
+                <legend class="imp">Your Information</legend>
+                <label>First Name*: <input type="text" name="fname" required></label>
+                <label>Last Name*: <input type="text" name="lname" required></label>
+                <label>Business Position: <input type="text" id="myInput" name="position" pattern="[a-zA-Z\s\-]{7,}"
+                        title="Please enter at least 7 letters, spaces, or hyphens (no numbers or special characters)"></label>
+                <label>Email*: <input type="email" name="email" required placeholder="email@email.com"></label>
+                <label>Phone Number*: <input type="tel" name="phone" required placeholder="123456789"></label>
+                <label>Business Name/Title*: <input type="text" name="bname" required></label>
+            <!-- </fieldset> -->
+
+            <!-- <fieldset class="two"> -->
+                <legend class="imp"> Membership Selection </legend>
+                <section class="tabela">
+                    <section class="rad">
+                        <label class="radbtn"><input type="radio" name="audience" value="nonprofit">Non-profit </label>
+                        <label><input type="radio" name="audience" value="bronze">Bronze</label>
+                        <label><input type="radio" name="audience" value="silver">Silver</label>
+                        <label><input type="radio" name="audience" value="gold">Gold </label>
+                    </section>
+                        <table>
+                            <tr>
+                                <td colspan="5">Membership Level</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>NP</td>
+                                <td>Bronze</td>
+                                <td>Silver</td>
+                                <td>Gold</td>
+                            </tr>
+                            <tr>
+                                <td>Price</td>
+                                <td>$0</td>
+                                <td>$100</td>
+                                <td>$200</td>
+                                <td>$300</td>
+                            </tr>
+                            <tr>
+                                <td>Training</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <td>Advertising</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>✔️</td>
+                                <td>✔️</td>
+                            </tr>
+                            <tr>
+                                <td>Event Discounts</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>❌</td>
+                                <td>✔️</td>
+                            </tr>
+                        </table>
+
+                </section>
+            <!-- </fieldset> -->
+
+            <!-- <fieldset class="three"> -->
+                <legend class="imp">Let Us Know More About Your Business</legend>
+                <section class="areaTexto">
+                    <p>Write a brief description of your business:</p>
+                    <label class="labelT">
+                        <textarea name="description" rows="3" cols="50"></textarea>
+                    </label>
+                </section>
+            </fieldset>
+            <input type="hidden" name="date" id="loadDate">
+            <input type="submit" value="Join" class="joinbtn">
+        </form>
+    </main>
     <footer>
         <div class="footerInfo">
             <div class="logo">
@@ -100,8 +171,7 @@
     </footer>
 
     <script src="scripts/app.js"></script>
-    <script src="scripts/visit.js"></script>
-    <script src="scripts/images.js"></script>
+    <script src="scripts/join.js"></script>
 
 </body>
 
