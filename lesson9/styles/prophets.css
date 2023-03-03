@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+    color: black;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    max-width: 1200px;
+    margin: 1rem auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #c2c0c0;
+    line-height: 0.5px;
+    border-radius: 10px;
+}
+
+h2,
+img,
+p {
+    align-self: center;
+    margin: 1rem;
+    font-family: monospace;
+}
+
+h2 {
+    margin: 2rem 0px 1.5rem;
+}
+
+img {
+    max-width: 65%;
+    margin: 1rem 0px 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
