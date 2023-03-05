@@ -1,0 +1,87 @@
+{
+    "businesses": [
+        {
+        "name": "Brazil Biz",
+        "address": "Avenida Tenente-Coronel Adalberto Mendes, 669",
+        "phone": "(24) 3354-5353",
+        "website": "https://www.brazilbiz.com.br/brazilbiz/",
+        "image": "images/brazilBiz.png",
+        "membership": "NP"
+      },
+    
+      {
+        "name": "Brazil Yello",
+        "address": "Rua Otávio Brasil",
+        "phone": "(24) 3365-4506",
+        "website": "https://www.brazilyello.com/",
+        "image": "images/brazilYello.png",
+        "membership": "Silver"
+      },
+      {
+        "name": "Clasp",
+        "address": "Rua Doutor Herotides de Oliveira, 69 - Icaraí",
+        "phone": "(21) 2710-5674",
+        "website": "https://clasp.com.br/",
+        "image": "images/clasp.png",
+        "membership": "Gold"
+      },
+      {
+        "name": "Cylex",
+        "address": "Rio das Ostras",
+        "phone": "(22) 2771-0306",
+        "website": "https://www.cylex.com.br/",
+        "image": "images/cylex.png",
+        "membership": "Bronze"
+      },
+      {
+        "name": "Ferro Lagos",
+        "address": "Nova Esperança",
+        "phone": "(22) 2760-3413",
+        "website": "https://www.mystarchiro.com/",
+        "image": "images/ferroLagos.png",
+        "membership": "NP"
+      },
+      {
+        "name": "Guia Mais",
+        "address": "Rua Francisco Pereira de Mendonça, 393",
+        "phone": "(22) 8837-8050",
+        "website": "http://ferrolagos.com.br/",
+        "image": "images/guiaMais.png",
+        "membership": "Gold"
+      },
+      {
+        "name": "Hot Frog",
+        "address": "Vila do Abraao",
+        "phone": "(24) 3361-5108",
+        "website": "https://www.hotfrog.com.br/",
+        "image": "images/hotFrog.png",
+        "membership": "Silver"
+      },
+      {
+        "name": "InfoBel",
+        "address": "Rua Prefeito Ribeiro",
+        "phone": "(21) 3657-6879",
+        "website": "https://www.infobel.com/pt/brazil",
+        "image": "images/infobel.png",
+        "membership": "NP"
+      },
+      
+      {
+        "name": "SkyLinq",
+        "address": "Rua 322, 3 - Monte Castelo",
+        "phone": "(24) 3342-7093",
+        "website": "http://skylinq.com.br/",
+        "image": "images/skyLinq.png",
+        "membership": "Gold"
+      },
+      {
+        "name": "The Rio Times",
+        "address": "Avenida Lúcio Meira, 670",
+        "phone": "(21) 2743-8305",
+        "website": "https://www.riotimesonline.com/",
+        "image": "images/theRioTimes.png",
+        "membership": "Gold"
+      }
+      
+    ]
+  }

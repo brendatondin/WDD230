@@ -81,29 +81,11 @@
         margin: 0;
     }
 
-    /* .social {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .social img {
-        grid-column: 3/4;
-        grid-row: 1/2;
-        margin-right: 10px;
-    } */
-
     main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-rows: 300px;
-        /* grid-auto-rows: auto; */
-
         gap: 9px;
-        /* margin-top: 15px;
-        margin-bottom: 15px; */
         margin: 15px;
     }
 
