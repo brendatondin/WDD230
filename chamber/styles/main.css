@@ -188,6 +188,7 @@ main {
 .weather {
     grid-column: 2/4;
     padding: 5%;
+    text-align: center;
     background-color: #2D334A;
     border: solid 1px #2D334A;
 }
@@ -196,15 +197,44 @@ main {
     font-size: 20px;
 }
 
-#weatherGrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #2D334A;
-    border: solid 1px #2D334A;
+.weather-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-#weatherIcon {
-    width: 50px;
+.weather-speedchill{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4px;
+}
+
+.weather-speedchill h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.weather-speedchill p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#current-temp {
+    font-size: 3 n rem;
+}
+
+figcaption {
+    color: white;
+    font-size: 22px;
+}
+
+
+#weather-icon {
+    width: 70px;
     margin: 0 auto;
 }
 

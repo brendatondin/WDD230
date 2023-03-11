@@ -4,6 +4,8 @@ const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=fairbanks&units=imperial&appid=da3f1563c6fac50272c4dd230f193a30';
+// const url = 'https://api.openweathermap.org/data/2.5/weather?q=rio de janeiro&units=imperial&appid=da3f1563c6fac50272c4dd230f193a30';
+
 
 async function apiFetch() {
     try {
