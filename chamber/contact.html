@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Chamber Of Commerce Website">
+    <title>Chamber of Commerce</title>
+    <link rel="icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+</head>
+
+<body>
+    <div id="banner">
+        <p id="banner_msg"></p>
+    </div>
+    <header>
+        <div class="link">
+            <button id="hamburger-button"><span>&#9776;</span></button>
+            <div class="logo">
+                <picture>
+                    <img src="images/littleHandLogo.png" alt="a little hand logo">
+                </picture>
+                <section class="headings">
+                    <h1>A Little Hand</h1>
+                    <p class="m">Chamber of Commerce</p>
+                </section>
+            </div>
+            <nav class="nav-bar sumindo">
+                <ul>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="discover.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="facebook logo">
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="images/linkedIn.png" alt="linkedin logo">
+                </a>
+            </div>
+        </div>
+        <nav class="nav-bar aparecendo">
+            <ul id="primaryNav">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="discover.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="date">
+            <p id="date2"></p>
+        </div>
+    </header>
+    <main class="contactUs">
+        <div class="formulario">
+            <h1>Contact Us</h1>
+            <form>
+                <fieldset class="one1">
+                    <label>First Name*: <input type="text" name="fname" required></label>
+                    <label>Email*: <input type="email" name="email" required placeholder="email@email.com"></label>
+                    <div class="areaTexto">
+                        <p>Write a brief description of your business:</p>
+                        <label class="labelT">
+                            <textarea name="description" rows="3" cols="50"></textarea>
+                        </label>
+                    </div>
+                    <div class="btnJoinPage">
+                        <input type="submit" value="Join" class="joinbtn">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div>
+            <div>
+                <h1>Chamber of Commerce</h1>
+                <p>Rua Lulinha 13</p>
+                <p>Rio de Janeiro, Brazil</p>
+                <p>Phone: +55(21)2637-9984</p>
+                <p>Email: alittlehand@gmail.com</p>
+                <p>Office Hours: Mon-Fri, 9am-5pm</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerInfo">
+            <div class="logo">
+                <picture>
+                    <img src="images/littleHandLogo.png" alt="a little hand logo">
+                </picture>
+                <section class="headings">
+                    <h1>A Little Hand</h1>
+                    <p>Rua Lulinha, 13 Rio de Janeiro, Brazil</p>
+                </section>
+            </div>
+            <div class="contact">
+                <p>infor@timbuktucc.org <br> +(223) 2070-2300 <br>
+                    <p>📍Location Map</p>
+            </div>
+        </div>
+
+        <hr>
+        <div class="student">
+            <p>
+                &copy; 2023 | A Little Hand | WDD 230 Project | <span class="last-update" id="lastModified">
+                </span>
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="scripts/app.js"></script>
+    <script src='scripts/windchill.js'></script>
+
+</body>
+
+</html>

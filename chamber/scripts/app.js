@@ -56,9 +56,3 @@ function toggleMenu() {
 
 const x = document.getElementById('hamburger-button')
 x.onclick = toggleMenu;
-
-// if(dayName==='Monday' || dayName==='Tuesday') {
-// 	setTimeout(function () {
-// 		alert('🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.')
-// 	}, 1000)
-// }
