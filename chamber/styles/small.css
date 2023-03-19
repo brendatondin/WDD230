@@ -254,4 +254,8 @@
         flex-direction: column;
     }
 
+    .cards{
+        justify-content: center;
+    }
+
 }
