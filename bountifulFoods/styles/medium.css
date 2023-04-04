@@ -1,0 +1,25 @@
+@media only screen and (min-width: 600px) {
+	.nav-links {
+		display: flex;
+	}
+
+	.nav-links li {
+		display: block;
+		flex: 1 1 auto;
+	}
+
+	.nav-links a {
+		text-align: center;
+	}
+
+	.nav-menu {
+		box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+		display: flex;
+	}
+
+	#menu {
+		display: none;
+	}
+
+
+}

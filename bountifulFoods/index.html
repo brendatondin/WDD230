@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for the Bountiful Foods website">
+    <title>Home | Bountiful Foods</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-menu">
+            <div class="logo-link">
+                <a href="index.html">
+                    <img src="images/logo.png" data-src="images/logo.png" alt="Bountiful Foods logo">
+                    <h2 id="teste">Bountiful Foods</h2>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li id="phoneMenu"><a id="menu" href="#"></a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <main>
+        <img class="hero" src="images/hero.jpg" data-src="images/hero.jpg" alt="Fruits">
+        <div class="main-content">
+            <div class="home-card">
+                <h2>From Carlsbad To You</h2>
+                <div class="linha">
+                    <div class="coluna-50">
+                        <p>Bountiful Foods is small business specializing in organic, locally grown foods. We are
+                            physically
+                            located in Carlsbad, California, however, we have many food trucks that cover the coastal
+                            area
+                            from
+                            Los Angeles to San Diego. The company sells fruits and produce directly from the farmers in
+                            the
+                            area, but also uses some national and international suppliers. The owner-operated company
+                            caters to walk in traffic
+                        </p>
+                    </div>
+                    <div class="coluna-50">
+                        <p class="left">at ours storefront in Carlsbad and, of course, our food trucks. We deliver
+                            and
+                            manage those orders on the phone and via the website. The mission is to provide fresh and
+                            healthy
+                            food options, including organic, made to order, fruit drinks and fruit bags, to the local
+                            population
+                            and to tourists visiting the coastal areas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="home-card">
+                <h2>Make Your Own Fruit Drinks</h2>
+                <div class="linha">
+                    <div class="coluna-50">
+                        <p>Bountiful Foods lets you custom your drinks, with our high quality ingredients selected
+                            specially for
+                            the best experience. Made with love and with delicious
+                        </p>
+                    </div>
+                    <div class="coluna-50">
+                        <p class="left">
+                            fruits, don't miss this opportunity. Come
+                            make your own!
+                        </p>
+                    </div>
+                    <button id="oi" onclick="window.location.href = 'fresh.html';">Create Your Own Drinks</button>
+                </div>
+            </div>
+            <div class="home-card socials">
+                <h2 id="linksToSocialMedia">Follow Us</h2>
+                <div class='social-links'>
+                    <a href="https://www.instagram.com/" target="_blank"><img class='social-link'
+                            src="images/instagramLogo.webp" data-src="images/instagramLogo.webp"
+                            alt="Instagram logo"></a>
+                    <a href="https://twitter.com/" target="_blank"><img class='social-link' src="images/twitterLogo.png"
+                            data-src="images/twitterLogo.png" alt="twitter logo"></a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img class='social-link' src="images/facebookLogo.png" data-src="images/facebookLogo.png"
+                            alt="facebook logo">
+                    </a>
+                </div>
+            </div>
+            <div class="home-card">
+                <div id="weatherH2">
+                    <h2>Weather in Carlsblad</h2>
+                </div>
+                <div id="weather-cards">
+                    <div class="weather-card">
+                        <h3>Today</h3>
+                        <p id="current-temperature"></p>
+                        <img id="current-icon" alt="weather icon" src="vazio">
+                        <p id="current-description"></p>
+                        <p id="humidity-icon">💧</p>
+                        <p id="current-humidity"></p>
+                        <p id="high-low"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <img class='footer-logo' src="images/logo.png" alt="bountifulfoods logo">
+            <div class='footer-text'>
+                <p><strong>Bountiful Foods</strong></p>
+                <p>Carlsbad Blvd, Carlsbad, CA 92011</p>
+                <p>bountifulfoods@email.com</p>
+                <p>(+1)1234567890</p>
+            </div>
+            <div id="mapezin">
+                <h2>We Are Here!</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.96098358023!2d-117.4313323700067!3d33.12143727822755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1680285889227!5m2!1spt-BR!2sbr"
+                    width="210" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/update.js"></script>
+    <script src="scripts/lazyLoads.js"></script>
+
+</body>
+
+</html>

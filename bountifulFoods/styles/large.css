@@ -1,0 +1,13 @@
+@media only screen and (max-width: 60em) {
+    .footer{
+        flex-direction: column;
+    }
+
+    .coluna-50 {
+        width: 100%;
+    }
+
+    .left{
+        margin: 0;
+    }
+}

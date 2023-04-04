@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300;400&display=swap');
+
+:root {
+    --primary-accent: #B9622D;
+    --secondary-accent: #727741;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--secondary-accent);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary-accent);
+    border-radius: 20px;
+    border: 3px solid var(--primary-accent);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #EBEBE4;
+}
+
+main {
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    float: none;
+}
+
+.nav-menu {
+    background-color: #EBEBE4;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu li a {
+    color: var(--secondary-accent);
+    display: block;
+    font-size: 18px;
+    padding: 25px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-menu li a:hover {
+    background-color: #EBEBE4;
+    color: #B9622D;
+}
+
+.logo-link {
+    margin: 0 auto -65px 0;
+}
+
+.logo-link a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+#teste {
+    margin: 0;
+}
+
+.logo-link a img {
+    max-height: 45px;
+    margin: 10px;
+}
+
+.logo-link a h2 {
+    color: var(--secondary-accent);
+    display: inline;
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-links li:first-child {
+    display: block;
+}
+
+.nav-links li {
+    display: none;
+}
+
+.nav-links a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    background-color: var(--dark-blue);
+    font-weight: 700;
+    transition: 0.5s;
+    font-size: 16px;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+    background-color: var(--primary-accent);
+}
+
+.nav-links li a {
+    padding-right: 30px;
+}
+
+#menu::before {
+    content: '☰';
+    font-size: 2rem;
+    background-color: var(--dark-blue);
+}
+
+
+#menu {
+    text-align: right;
+    padding: 15px 30px;
+}
+
+.responsive #menu::before {
+    content: '✖';
+    background-color: var(--dark-blue);
+}
+
+.responsive li {
+    display: block;
+    border-bottom: solid 1px rgb(168, 168, 168);
+}
+
+.responsive li a {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary-accent);
+    color: white;
+}
+
+.footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    max-height: 173px;
+    padding: 30px 15px;
+    border-radius: 50%;
+}
+
+.footer-text {
+    display: inline-block;
+    text-align: left;
+    padding: 10px 5px;
+}
+
+#lastModified {
+    font-size: 15px;
+    margin: 0;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+main p {
+    margin: 10px 0 0 0;
+}
+
+.left {
+    margin-left: 5%;
+}
+
+.main-content {
+    padding: 0 25px 25px;
+}
+
+.linha {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.coluna-50 {
+    width: 50%;
+    text-align: justify;
+}
+
+.home-card {
+    margin: 50px 0;
+}
+
+#weatherH2 {
+    display: flex;
+    justify-content: center;
+}
+
+#weatherH2 h2 {
+    color: var(--primary-accent);
+}
+
+.first-home-card {
+    margin-top: 0px;
+}
+
+
+button {
+    background-color: var(--secondary-accent);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    margin: 49px 0 15px 0;
+}
+
+button:hover {
+    background-color: var(--primary-accent);
+    cursor: pointer;
+}
+
+#oi {
+    --width: 150px;
+    --timing: 2s;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    background: var(--secondary-accent);
+    transition: all 0.2s;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-weight: bold;
+    margin: 49px 0 15px 0;
+}
+
+#oi:hover {
+    background-image: linear-gradient(to right, rgb(250, 82, 82), rgb(250, 82, 82) 16.65%, rgb(190, 75, 219) 16.65%, rgb(190, 75, 219) 33.3%, rgb(76, 110, 245) 33.3%, rgb(76, 110, 245) 49.95%, rgb(64, 192, 87) 49.95%, rgb(64, 192, 87) 66.6%, rgb(250, 176, 5) 66.6%, rgb(250, 176, 5) 83.25%, rgb(253, 126, 20) 83.25%, rgb(253, 126, 20) 100%, rgb(250, 82, 82) 100%);
+    animation: var(--timing) linear dance6123 infinite;
+    transform: scale(1.1) translateY(-1px);
+    cursor: pointer;
+}
+
+@keyframes dance6123 {
+    to {
+        background-position: var(--width);
+    }
+}
+
+
+.social-links {
+    text-align: center;
+}
+
+.social-link {
+    max-width: 50px;
+    margin: 0 20px;
+}
+
+.socials {
+    text-align: center;
+}
+
+#weather-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #b9632d80;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+.weather-card {
+    border: solid 5px var(--secondary-accent);
+    background-color: #EBEBE4;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+
+#current-temperature {
+    font-size: 50px;
+}
+
+#current-icon {
+    bottom: -44px;
+    left: -53px;
+    width: 90px;
+}
+
+#humidity-icon {
+    position: relative;
+    font-size: 16px;
+    bottom: -17px;
+    left: -70px;
+}
+
+#humidity-icon,
+#current-humidity {
+    margin-top: -4px;
+}
+
+.tempLow {
+    font-size: 30px;
+    color: var(--secondary-accent);
+}
+
+
+.tempHigh {
+    font-size: 50px;
+    color: var(--primary-accent);
+}
+
+
+.divider {
+    width: 80px;
+}
+
+#high-low {
+    margin-top: 5px;
+}
+
+.day {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0;
+}
+
+.weather-card-content {
+    margin: 0;
+    padding: 20px;
+}
+
+form {
+    margin: 0 auto;
+    padding: 25px;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+label {
+    display: block;
+}
+
+input,
+select,
+textarea {
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid var(--primary-accent);
+    border-radius: 5px;
+}
+
+#freshForm {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: solid 3px var(--primary-accent);
+    border-radius: 10px;
+}
+
+.centered {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#output-area {
+    border-radius: 5px;
+    min-width: 300px;
+    max-width: 575px;
+    margin: 0 auto 50px;
+    padding: 0 25px 25px;
+}
+
+#drink-order-count {
+    display: inline;
+    margin-left: 10px;
+}
+
+iframe {
+    min-width: 300px;
+    max-width: 100%;
+}
+
+h1,
+h2 {
+    margin-bottom: 7px;
+    color: var(--secondary-accent);
+}
+
+#linksToSocialMedia {
+    margin-bottom: 3%;
+}
+
+.top-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-footer {
+    display: block;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#mapezin {
+    margin-left: 5%;
+    margin-bottom: 20px;
+}
+
+#mapezin h2 {
+    color: #EBEBE4;
+}
+
